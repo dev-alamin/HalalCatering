@@ -1,0 +1,65 @@
+2023-05-29T01:47:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2015
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/layout/main-navigation.php(469): WC_Cart->get_product_subtotal()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(785): require('/home/u91039719...')
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(718): load_template()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/general-template.php(204): locate_template()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(17): get_template_part()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#8 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2015
+
+2023-05-29T01:47:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2015
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/layout/main-navigation.php(469): WC_Cart->get_product_subtotal()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(785): require('/home/u91039719...')
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(718): load_template()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/general-template.php(204): locate_template()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(17): get_template_part()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#8 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2015
+
+2023-05-29T01:47:47+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2015
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/layout/main-navigation.php(469): WC_Cart->get_product_subtotal()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(785): require('/home/u91039719...')
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(718): load_template()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/general-template.php(204): locate_template()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(17): get_template_part()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#8 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2015
+
+2023-05-29T02:27:00+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2015
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/layout/main-navigation.php(469): WC_Cart->get_product_subtotal()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(785): require('/home/u91039719...')
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(718): load_template()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/general-template.php(204): locate_template()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(17): get_template_part()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#8 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2015
+
+2023-05-29T02:27:08+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php:2015
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/layout/main-navigation.php(469): WC_Cart->get_product_subtotal()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(785): require('/home/u91039719...')
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template.php(718): load_template()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/general-template.php(204): locate_template()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(17): get_template_part()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#8 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 2015
+

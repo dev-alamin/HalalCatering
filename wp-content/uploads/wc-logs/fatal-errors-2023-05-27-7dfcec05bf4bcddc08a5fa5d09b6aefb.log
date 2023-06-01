@@ -1,0 +1,80 @@
+2023-05-27T17:33:28+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:33:29+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(300): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:33:38+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:35:33+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:39:41+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:39:43+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(300): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:39:48+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+
+2023-05-27T17:41:45+00:00 CRITICAL Uncaught Error: Call to a member function get_label() on string in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php:354
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(303): wc_cart_totals_shipping_method_label()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_methods()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-cart-functions.php on line 354
+

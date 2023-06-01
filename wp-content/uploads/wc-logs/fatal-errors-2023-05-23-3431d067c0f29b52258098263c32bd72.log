@@ -1,0 +1,42 @@
+2023-05-23T04:21:52+00:00 CRITICAL syntax error, unexpected ';' in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/single-product.php on line 137
+
+2023-05-23T05:24:56+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php:177
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(785): require()
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(718): load_template('/Users/fictione...', false, Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/single-product.php(15): get_template_part('layout/main-nav...')
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template-loader.php(106): include('/Users/fictione...')
+#5 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-blog-header.php(19): require_once('/Users/fictione...')
+#6 /Users/fictioneye in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php on line 177
+
+2023-05-23T05:25:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php:177
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(785): require()
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(718): load_template('/Users/fictione...', false, Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/single-product.php(15): get_template_part('layout/main-nav...')
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template-loader.php(106): include('/Users/fictione...')
+#5 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-blog-header.php(19): require_once('/Users/fictione...')
+#6 /Users/fictioneye in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php on line 177
+
+2023-05-23T05:25:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php:182
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(785): require()
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(718): load_template('/Users/fictione...', false, Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/single-product.php(15): get_template_part('layout/main-nav...')
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template-loader.php(106): include('/Users/fictione...')
+#5 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-blog-header.php(19): require_once('/Users/fictione...')
+#6 /Users/fictioneye in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php on line 182
+
+2023-05-23T05:25:43+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php:183
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(785): require()
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template.php(718): load_template('/Users/fictione...', false, Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/single-product.php(15): get_template_part('layout/main-nav...')
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/template-loader.php(106): include('/Users/fictione...')
+#5 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-blog-header.php(19): require_once('/Users/fictione...')
+#6 /Users/fictioneye in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/layout/main-navigation.php on line 183
+

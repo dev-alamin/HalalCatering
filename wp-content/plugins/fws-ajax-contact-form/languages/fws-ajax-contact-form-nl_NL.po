@@ -1,0 +1,409 @@
+# Copyright (C) 2014 Ajax Contact Form
+# This file is distributed under the same license as the Ajax Contact Form package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax Contact Form\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-21 09:23+0000\n"
+"PO-Revision-Date: 2022-09-07 07:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2"
+
+#: incl/options.php:77
+#, php-format
+msgid ""
+"<p>Configure your contact form options below. If you like to change the "
+"(error) messages and/or labels, that are visible via the web form, please "
+"use a localization plugin (f.e. <a href=\"%s\" target=\"_blank\">%s</a>).</p>"
+msgstr ""
+"<p>Wijzig hieronder je contact form opties. Wil je ook de (fout) melding "
+"en/of labels wijzigen, welke zichtbaar zijn via het formulier? Gebruik dan "
+"een lokalisatie plugin (b.v. <a href=\"%s\" target=\"_blank\">%s</a>).</p>"
+
+#: fws-ajax-contact-form.php:219 incl/options.php:102
+msgid "A message from your website's contact form"
+msgstr "Een bericht verzonden via het contactformulier op je website"
+
+#: incl/options.php:196
+msgid ""
+"Add here the goal ID for a manual goal you've already defined in Clicky "
+"(check the FAQ for information)."
+msgstr ""
+"Geef hier het ID voor je doel op dat je eerder in Clicky hebt aangemaakt "
+"(raadpleeg de FAQ voor informatie)."
+
+#: incl/options.php:109
+msgid ""
+"Add here your personal \"Thank You\" message which appears after the contact "
+"form was submitted (some HTML is allowed)."
+msgstr ""
+"Plaats hier een \"Bedankt\" bericht, dat verschijnt op het moment dat het "
+"contactformulier is verzonden (HTML is beperkt te gebruiken)"
+
+#: incl/options.php:68
+#| msgid ""
+#| "Add the following shortcode into your page. Use the shortcode attribute "
+#| "\"emailsubject\" to overwrite the setting for the mail subject from this "
+#| "page. Enter multiple subject values, divided by \"|\" (pipe) symbols, to "
+#| "create a SELECT menu. Provide an empty subject attribute to remove the "
+#| "subject form field and use the \"show_phone\" attribute to remove the "
+#| "phone form field."
+msgid ""
+"Add the following shortcode into your page. Use the shortcode attribute "
+"\"emailsubject\" to overwrite the setting for the mail subject from this "
+"page. Enter multiple subject values, divided by \"|\" (pipe) symbols, to "
+"create a SELECT menu. Provide an empty subject attribute to remove the "
+"subject form field. Use the show_phone=no attribute to hide the phone form "
+"field."
+msgstr ""
+"Plaats de volgende shortcode op je pagina. Gebruik het shortcode attribuut "
+"\"emailsubject\" om het onderwerp van de instellingen pagina te "
+"overschrijven. Geef meerdere onderwerpen op (gescheiden door het \"|\" (pipe)"
+" symbolen, om een SELECT menu te maken. Voer een leeg waarde aan het subject "
+"attribuut om geen onderwerp veld te gebruiken. Gebruik het attribuut "
+"show_phone=no om het formulierveld voor de telefoonnummer te verbergen."
+
+#: incl/options.php:35
+msgid "Ajac Contact Form"
+msgstr "Ajac Contact Form"
+
+#. Name of the plugin
+msgid "Ajax Contact Form"
+msgstr "Ajax Contact Form"
+
+#: incl/options.php:265
+msgid "Ajax Contact Form Options"
+msgstr "Ajax Contact Form Opties"
+
+#: incl/options.php:48
+msgid "Ajax Contact Form Settings"
+msgstr "Ajax Contact Form Instellingen"
+
+#: fws-ajax-contact-form.php:163
+msgid "All fields are required to enter."
+msgstr "Alle velden zijn verplicht in te vullen."
+
+#. Description of the plugin
+msgid ""
+"An easy to use Ajax contact form with inbuilt features to prevent contact "
+"form spam."
+msgstr ""
+"Een (Ajax) contactformulier dat eenvoudig is in het gebruik en je formulier "
+"tegen spam beschermt."
+
+#: fws-ajax-contact-form.php:64
+msgid "At least one of the form fields is empty."
+msgstr "Tenminste één van de formuliervelden is leeg."
+
+#: incl/options.php:117
+#, php-format
+msgid ""
+"Block submissions from specific countries. Therfore we use the API from "
+"ipstack to check the user's country code. Keep this field empty to disable "
+"that feature. Get here your (free) %s."
+msgstr ""
+"Blokkeer inzendingen van specifieke landen. Wij gebruiken hierbij de API van "
+"ipstack om de landcode van de gebruiker te achterhalen.  Laat het veld leeg "
+"wanneer je de functie niet wil gebruiken.  Verkrijg hier je (gratis) %s"
+
+#: incl/options.php:125
+#| msgid " Blocked country codes "
+msgid "Blocked country codes:"
+msgstr "Geblokkeerde landcodes"
+
+#: incl/shortcodes.php:46
+msgid "Choose one..."
+msgstr "Kies een onderwerp..."
+
+#: incl/options.php:76
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: incl/options.php:36
+msgid "Contact form"
+msgstr "Contactformulier"
+
+#: fws-ajax-contact-form.php:227 fws-ajax-contact-form.php:340
+#: incl/shortcodes.php:26
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: incl/options.php:90
+#| msgid " Email address (from): "
+msgid "Email address (from):"
+msgstr "E-mailadres (van):"
+
+#: incl/options.php:81
+#| msgid " Email address (to): "
+msgid "Email address (to):"
+msgstr "E-mailadres (aan):"
+
+#: incl/options.php:99
+#| msgid " Email subject(s): "
+msgid "Email subject(s):"
+msgstr "E-mailonderwerp(en):"
+
+#: incl/options.php:178
+msgid ""
+"Enter here your \"Thank you...\" page URL. We use that URL for a redirect "
+"after the form is submitted. Leave the field empty to disable the redirect "
+"function."
+msgstr ""
+"Geef hier de URL op van je \"Bedankpagina\". Deze URL wordt gebruikt voor "
+"een omleiding nadat het formulier is verzonden. Laat het veld leeg om de "
+"omleidingsfunctie uit te schakelen."
+
+#: incl/options.php:190
+msgid "Event name"
+msgstr "Gebeurtenisnaam"
+
+#: incl/options.php:70
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: fws-ajax-contact-form.php:96
+msgid "Form submission"
+msgstr "Formulierinzeding"
+
+#: incl/options.php:153
+#, php-format
+msgid ""
+"hCaptcha is a privacy-first CAPTCHA service. Get here your free account: %s"
+msgstr ""
+"hCaptcha is een privacy-first CAPTCHA dienst. Maak een gratis account aan: %s"
+
+#: incl/options.php:161
+msgid "hCaptcha secret Key:"
+msgstr "hCaptcha secret sleutel:"
+
+#: incl/options.php:152
+msgid "hCaptcha site Key:"
+msgstr "hCaptcha site sleutel:"
+
+#: incl/options.php:66
+msgid "How to start?"
+msgstr "Waar beginnen?"
+
+#. Author URI of the plugin
+#| msgid "http://www.olaflederer.com/"
+msgid "https://www.olaflederer.com/"
+msgstr "https://www.olaflederer.com/"
+
+#: incl/options.php:69
+msgid ""
+"If you like to use the responder function, just add the attribute "
+"\"responder\" with the ID from your responder post to your shortcode. In "
+"your responder email template your can use the placeholder %name% for the "
+"name in your salutation."
+msgstr ""
+"Wil je de automatische antwoord functie gebruiken? Plaats dan het attribuut "
+"\"responder\" met de ID van je antwoord email post in je shortcode. Binnen "
+"de antwoord mail kan je de placeholder %name% gebruiken voor je aanhef."
+
+#: incl/options.php:170
+#| msgid " Include CSS "
+msgid "Include CSS:"
+msgstr "Inclusief CSS:"
+
+#: incl/options.php:171
+#| msgid "Include our stylesheet for your contact form"
+msgid "Include our stylesheet for your contact form."
+msgstr "Onze stylesheet gebruiken voor het contactformulier."
+
+#: fws-ajax-contact-form.php:229 fws-ajax-contact-form.php:352
+msgid "IP address"
+msgstr "IP adres"
+
+#: incl/options.php:116
+#| msgid "IP Stack API Key "
+msgid "IP Stack API Key:"
+msgstr "IP Stack API sleutel:"
+
+#: fws-ajax-contact-form.php:63
+msgid "Loading..."
+msgstr "Laden..."
+
+#: fws-ajax-contact-form.php:348 incl/shortcodes.php:68
+msgid "Message"
+msgstr "Bericht"
+
+#: fws-ajax-contact-form.php:336 incl/shortcodes.php:22
+msgid "Name"
+msgstr "Naam"
+
+#. Author of the plugin
+msgid "Olaf Lederer"
+msgstr "Olaf Lederer"
+
+#: fws-ajax-contact-form.php:344
+msgid "Phone"
+msgstr "Telefoon"
+
+#: fws-ajax-contact-form.php:228
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: incl/options.php:135
+#, php-format
+#| msgid ""
+#| "Protect your form with Google reCAPTCHA (v3) against spam. Get hier your "
+#| "free keys: %s"
+msgid ""
+"Protect your form with Google reCAPTCHA (v3) against spam. Get here your "
+"free keys: %s"
+msgstr ""
+"Bescherm je formulier met Google reCAPTCHA (v3) tegen spam. Verkrijg hier je "
+"gratis sleutels: %s"
+
+#: incl/options.php:143
+#| msgid " reCAPTCHA Secret Key "
+msgid "reCAPTCHA Secret Key:"
+msgstr " reCAPTCHA Secret Key:"
+
+#: incl/options.php:134
+#| msgid " reCAPTCHA Site Key "
+msgid "reCAPTCHA Site Key:"
+msgstr " reCAPTCHA Site Key:"
+
+#: fws-ajax-contact-form.php:114
+msgid "Responder templates"
+msgstr "Antwoord templates"
+
+#: fws-ajax-contact-form.php:122
+msgid "Responders"
+msgstr "Auto. antwoorden"
+
+#: incl/options.php:273
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: fws-ajax-contact-form.php:226
+msgid "Sender's name"
+msgstr "Verzender's naam"
+
+#: incl/options.php:49 incl/options.php:59
+msgid "Settings"
+msgstr "Instellingen"
+
+#: fws-ajax-contact-form.php:265
+#, php-format
+msgid "Spam check didn't pass, try again (%s)."
+msgstr "De spam controle blokkeert het bericht, probeer het opnieuw (%s)."
+
+#: fws-ajax-contact-form.php:267
+msgid "Spam check didn't pass, try again."
+msgstr "De spam controle blokkeert het bericht, probeer het opnieuw"
+
+#: incl/shortcodes.php:44 incl/shortcodes.php:61
+msgid "Subject"
+msgstr "E-mailonderwerp"
+
+#: fws-ajax-contact-form.php:104
+msgid "Submissions"
+msgstr "Inzendingen"
+
+#: incl/shortcodes.php:86
+msgid "Submit"
+msgstr "Verzenden"
+
+#: fws-ajax-contact-form.php:386
+msgid "Submitted"
+msgstr "Verzonden"
+
+#: fws-ajax-contact-form.php:231 fws-ajax-contact-form.php:360
+msgid "Submitted via"
+msgstr "Verzonden via"
+
+#: incl/shortcodes.php:34
+msgid "Telefoon"
+msgstr "Phone"
+
+#: incl/options.php:108
+#| msgid "Thank you - message: "
+msgid "Thank you - message:"
+msgstr "Bedankt - Melding:"
+
+#: incl/options.php:177
+msgid "Thank you page URL:"
+msgstr "Bedankpagina URL:"
+
+#: fws-ajax-contact-form.php:243 incl/options.php:111
+msgid "Thanks, for your message. We will respond as soon as possible."
+msgstr "Bedankt voor je bericht. Wij zullen snelst mogelijk reageren."
+
+#: incl/options.php:82
+msgid "The email address where you like to receive the submitted messages."
+msgstr "Het e-mailadres waar de verzonden berichten wil ontvangen."
+
+#: incl/options.php:91
+msgid "The email address which is used as the sender."
+msgstr "Het e-mailadres dat wordt gebruikt voor het verzenden."
+
+#: incl/options.php:100
+msgid ""
+"The email subject for each message sent by the contact form. Add multiple "
+"subject rows to create a SELECT menu for your contact form."
+msgstr ""
+"Het e-mailonderwerp voor je contactformulier. Gebruik meerdere onderwerpen "
+"(1 per regel) om een SELECT menu voor je formulier aan te maken."
+
+#: fws-ajax-contact-form.php:65
+msgid "The entered email address isn't valid."
+msgstr "Het ingevoerde e-mailadres is niet geldig."
+
+#: fws-ajax-contact-form.php:258
+msgid "The script can't send this email message."
+msgstr "Het script kan het e-mailbericht niet versturen."
+
+#: fws-ajax-contact-form.php:261
+msgid "This contact for is currently not active."
+msgstr "Dit contactformulier is momenteel niet actief."
+
+#: incl/shortcodes.php:18
+msgid "Title"
+msgstr "Titel"
+
+#: incl/options.php:187
+msgid ""
+"Track an event in Google analytics after the form is submitted (gtag.js is "
+"supported, we use the event category \"contact form\")."
+msgstr ""
+"Ontvang een event in Google Analytics wanneer een formulier is verzonden "
+"(gtag.js wordt ondersteunt, we gebruiken de event categorie \"contact form\")"
+"."
+
+#: incl/options.php:195
+#| msgid " Track goals in Clicky "
+msgid "Track goals in Clicky"
+msgstr "Doelen in Clicky bijhouden"
+
+#: incl/options.php:186
+#| msgid " Track page views in Google Analytics "
+msgid "Track page views in Google Analytics"
+msgstr "Paginaweergaves in Google Analytics bijhouden"
+
+#: incl/options.php:126
+msgid "Use only ISO 3166 values and commas to separate multiple country codes."
+msgstr ""
+"Gebruik alleen maar ISO 3166 waarden en komma's om meerdere codes te scheiden"
+
+#: fws-ajax-contact-form.php:230 fws-ajax-contact-form.php:356
+msgid "User agent"
+msgstr "User agent"
+
+#: fws-ajax-contact-form.php:166
+msgid "Verification error, try again."
+msgstr "Verificatie fout, probeer het opnieuw."
+
+#: fws-ajax-contact-form.php:412
+msgid "View"
+msgstr "Bekijken"

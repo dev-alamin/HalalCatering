@@ -1,0 +1,549 @@
+2023-05-24T08:09:28+00:00 CRITICAL syntax error, unexpected token "}" in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 284
+
+2023-05-24T15:12:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping::set_shipping_methods() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:298
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 298
+
+2023-05-24T15:16:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Shipping_Zones::get_zone_matching_package(), 0 passed in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 277 and exactly 1 expected in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php:127
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(277): WC_Shipping_Zones::get_zone_matching_package()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php on line 127
+
+2023-05-24T15:16:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Shipping_Zones::get_zone_matching_package(), 0 passed in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 277 and exactly 1 expected in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php:127
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php(277): WC_Shipping_Zones::get_zone_matching_package()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php on line 127
+
+2023-05-24T15:20:01+00:00 CRITICAL Uncaught Error: Cannot instantiate abstract class WC_Shipping_Method in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:301
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 301
+
+2023-05-24T15:24:12+00:00 CRITICAL Uncaught Error: Call to undefined method Custom_Halal_Catering_Method::init() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:302
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 302
+
+2023-05-24T15:24:19+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zone::set_shipping_methods() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:311
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 311
+
+2023-05-24T15:26:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zone::set_shipping_methods() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:311
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 311
+
+2023-05-24T15:26:58+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zone::set_shipping_methods() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:311
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 311
+
+2023-05-24T15:29:36+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zone::set_data() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:309
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 309
+
+2023-05-24T15:33:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Shipping_Zone::set_data() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:309
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_shipping_method()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 309
+
+2023-05-24T15:40:55+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(393): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): WC_AJAX::update_order_review()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): WC_AJAX::do_wc_ajax()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(13): do_action()
+#19 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#21 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:41:43+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:41:52+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:42:13+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:42:21+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:42:32+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:43:06+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:43:16+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:43:45+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:44:13+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:48:01+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:48:09+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T15:49:11+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+
+2023-05-24T16:54:49+00:00 CRITICAL Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, array given in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php:801
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php(801): strpos()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/formatting.php(5136): filter_block_content()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): wp_pre_kses_block_attributes()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#4 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(944): apply_filters()
+#5 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/kses.php(754): wp_kses_hook()
+#6 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(268): wp_kses()
+#7 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/woocommerce/notices/success.php(30): wc_kses_notice()
+#8 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u91039719...')
+#9 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-notice-functions.php(158): wc_get_template()
+#10 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3834): wc_print_notices()
+#11 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): woocommerce_output_all_notices()
+#12 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#13 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(287): do_action()
+#15 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#16 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#17 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#18 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(355): WC_Shortcodes::checkout()
+#19 [internal function]: do_shortcode_tag()
+#20 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/shortcodes.php(227): preg_replace_callback()
+#21 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): do_shortcode()
+#22 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#23 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/post-template.php(255): apply_filters()
+#24 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/page.php(23): the_content()
+#25 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/template-loader.php(106): include('/home/u91039719...')
+#26 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-blog-header.php(19): require_once('/home/u91039719...')
+#27 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/index.php(17): require('/home/u91039719...')
+#28 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/blocks.php on line 801
+

@@ -1,0 +1,6 @@
+<?php
+// datastore=sitecheck;
+// created_on=1685607943;
+// updated_on=1685607943;
+exit(0);
+?>

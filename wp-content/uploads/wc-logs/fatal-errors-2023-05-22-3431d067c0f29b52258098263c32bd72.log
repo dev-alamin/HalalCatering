@@ -1,0 +1,24 @@
+2023-05-22T20:50:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function gl_additional_title_meta(), 2 passed in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php on line 310 and exactly 3 expected in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php:209
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(310): gl_additional_title_meta(29, Object(WC_Order_Item_Product))
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item.php(45): do_action('woocommerce_aft...', 29, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 /Users/fictioneyes/Local Sit in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php on line 209
+
+2023-05-22T20:51:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_order_key() in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php:210
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(308): gl_additional_title_meta(29, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item.php(45): do_action('woocommerce_aft...', 29, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-items.php(73):  in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php on line 210
+
+2023-05-22T20:52:30+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_checkout_order_received_url() in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php:210
+Stack trace:
+#0 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(308): gl_additional_title_meta(29, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-order-item.php(45): do_action('woocommerce_aft...', 29, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-ord in /Users/fictioneyes/Local Sites/halal-catering/app/public/wp-content/themes/halalcatering-theme/functions.php on line 210
+

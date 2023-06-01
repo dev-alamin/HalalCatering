@@ -1,0 +1,76 @@
+2023-05-17T05:30:52+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on string in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(308): add_custom_checkout_field('')
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(150): do_action('woocommerce_che...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#6 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\ in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 229
+
+2023-05-17T05:31:24+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on string in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:229
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(308): add_custom_checkout_field('')
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(146): do_action('woocommerce_che...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#6 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerc in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 229
+
+2023-05-17T09:35:28+00:00 CRITICAL Cannot redeclare add_custom_field_to_billing_form() (previously declared in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:217) in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 254
+
+2023-05-17T13:47:06+00:00 CRITICAL Cannot redeclare add_custom_field_to_billing_form_time() (previously declared in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:234) in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 253
+
+2023-05-17T13:47:12+00:00 CRITICAL Cannot redeclare add_custom_field_to_billing_form_time() (previously declared in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:234) in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 253
+
+2023-05-17T13:48:32+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:265
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(310): add_custom_field_to_billing_form_time_two(Array)
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-countries.php(1648): apply_filters('woocommerce_bil...', Array, 'DK')
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(253): WC_Countries->get_address_fields('DK', 'billing_')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(144): WC_Checkout->get_checkout_fields()
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\ in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 265
+
+2023-05-17T13:59:16+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on array in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:286
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(310): add_custom_checkout_radio_box(Array)
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-countries.php(1648): apply_filters('woocommerce_bil...', Array, 'DK')
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(253): WC_Countries->get_address_fields('DK', 'billing_')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(144): WC_Checkout->get_checkout_fields()
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdoc in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 286
+
+2023-05-17T13:59:42+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php:305
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(310): add_custom_field_to_billing_form_time_phone(NULL)
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-countries.php(1648): apply_filters('woocommerce_bil...', Array, 'DK')
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(253): WC_Countries->get_address_fields('DK', 'billing_')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(144): WC_Checkout->get_checkout_fields()
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\ in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\functions.php on line 305
+
+2023-05-17T16:38:45+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on array in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\inc\custom-checkout.php:74
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(310): add_custom_checkout_radio_box(Array)
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-countries.php(1648): apply_filters('woocommerce_bil...', Array, 'DK')
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(253): WC_Countries->get_address_fields('DK', 'billing_')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(144): WC_Checkout->get_checkout_fields()
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xa in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\inc\custom-checkout.php on line 74
+
+2023-05-17T16:43:08+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on string in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\inc\custom-checkout.php:121
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(308): add_custom_checkout_radio_box('')
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\woocommerce\checkout\form-checkout.php(146): do_action('woocommerce_che...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#6 C:\xampp\htdocs\others\halalcatering\wp-content\plug in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\inc\custom-checkout.php on line 121
+

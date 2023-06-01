@@ -1,0 +1,594 @@
+0000.000 (0) Opened log file at time: Thu, 01 Jun 2023 09:46:00 +0000 on http://localhost/halalCatering
+0000.125 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.1.4 (apache2handler, Windows NT DESKTOP-1N2VE09 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 138.9M | 142M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.211 (0) Free space on disk containing Updraft's temporary directory: 174895.3 MB
+0000.285 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.383 (0) Semaphore (d, wp_options) being initialised
+0000.760 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.965 (0) Set semaphore last lock (d) time to 2023-06-01 09:46:01
+0001.106 (0) Semaphore lock (d) complete
+0001.460 (0) Backup run: resumption=0, nonce=57d6d1f1e799, file_nonce=57d6d1f1e799 begun at=1685612760 (2s ago), job type=backup
+0001.589 (0) Scheduling a resumption (1) after 300 seconds (1685613062) in case this run gets aborted
+0001.844 (0) This backup run is not intended for files - skipping
+0001.915 (0) Beginning creation of database dump (WordPress DB)
+0001.974 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0006.299 (0) Table wp_options: Total expected rows (via COUNT): 893
+0006.742 (0) Table wp_options: Rows added in this batch (next record: 10312): 889 (uncompressed bytes in this segment=2368096) in 4.31 seconds
+0007.102 (0) Table wp_options: finishing file(s) (2, 421.3 KB)
+0007.302 (0) Table wp_users: Total expected rows (via COUNT): 1
+0007.376 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.544 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1405) in 0.28 seconds
+0007.879 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0008.231 (0) Table wp_usermeta: Total expected rows (via COUNT): 55
+0008.323 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.486 (0) Table wp_usermeta: Rows added in this batch (next record: 151): 55 (uncompressed bytes in this segment=8266) in 0.34 seconds
+0008.927 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0010.051 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 2024
+0010.513 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 2125): 2109 (uncompressed bytes in this segment=966974) in 1.29 seconds
+0010.777 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 59 KB)
+0011.026 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0011.083 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.17 seconds
+0011.266 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0011.534 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0011.768 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.989 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=878) in 0.56 seconds
+0012.148 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0012.327 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 6399
+0013.362 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 6317): 6315 (uncompressed bytes in this segment=551796) in 1.09 seconds
+0013.648 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 51.9 KB)
+0014.101 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0014.240 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.30 seconds
+0014.573 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0015.032 (0) Table wp_comments: Total expected rows (via COUNT): 36
+0015.093 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.387 (0) Table wp_comments: Rows added in this batch (next record: 48): 36 (uncompressed bytes in this segment=10366) in 0.52 seconds
+0015.582 (0) Table wp_comments: finishing file(s) (2, 1.5 KB)
+0015.863 (0) Table wp_links: Total expected rows (via COUNT): 0
+0016.142 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.39 seconds
+0016.544 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0017.134 (0) Table wp_postmeta: Total expected rows (approximate): 2179
+0017.699 (0) Table wp_postmeta: Rows added in this batch (next record: 5242): 2179 (uncompressed bytes in this segment=234054) in 0.91 seconds
+0018.065 (0) Table wp_postmeta: finishing file(s) (2, 31.3 KB)
+0018.872 (0) Table wp_posts: Total expected rows (via COUNT): 221
+0018.931 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.060 (0) Table wp_posts: Rows added in this batch (next record: 259): 221 (uncompressed bytes in this segment=277955) in 0.71 seconds
+0019.360 (0) Table wp_posts: finishing file(s) (2, 22.4 KB)
+0019.559 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0019.714 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=913) in 0.21 seconds
+0019.976 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0020.330 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 18
+0020.392 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.542 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1585) in 0.42 seconds
+0020.806 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0021.430 (0) Table wp_termmeta: Total expected rows (via COUNT): 13
+0021.548 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.626 (0) Table wp_termmeta: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1156) in 0.37 seconds
+0021.998 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0022.450 (0) Table wp_terms: Total expected rows (via COUNT): 18
+0022.642 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0022.711 (0) Table wp_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1344) in 0.42 seconds
+0022.909 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0023.134 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 4
+0023.257 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=622) in 0.19 seconds
+0023.626 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0023.965 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 8
+0024.041 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.184 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 33): 8 (uncompressed bytes in this segment=2147) in 0.37 seconds
+0024.424 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0024.576 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0025.042 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.52 seconds
+0025.267 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0025.543 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0025.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.735 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.27 seconds
+0025.997 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0026.458 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 706
+0026.497 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.806 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 1101): 706 (uncompressed bytes in this segment=50050) in 0.66 seconds
+0027.114 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 7.9 KB)
+0027.532 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0027.657 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.38 seconds
+0028.190 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0028.474 (0) Table wp_check_email_log: Total expected rows (via COUNT): 0
+0028.633 (0) Table wp_check_email_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1104) in 0.24 seconds
+0028.816 (0) Table wp_check_email_log: finishing file(s) (2, 0.5 KB)
+0029.441 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0029.674 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.45 seconds
+0029.916 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0030.416 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0030.737 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=131457) in 0.48 seconds
+0030.900 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 33 KB)
+0032.285 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0032.758 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1161) in 1.41 seconds
+0033.334 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0033.728 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0033.788 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.16 seconds
+0034.372 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0034.615 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0034.667 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.13 seconds
+0034.882 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.3 KB)
+0035.135 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0035.179 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.13 seconds
+0035.433 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0035.641 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0035.740 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.19 seconds
+0036.025 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0036.582 (0) Table wp_mailpoet_automation_run_logs: Total expected rows (via COUNT): 0
+0036.788 (0) Table wp_mailpoet_automation_run_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1014) in 0.59 seconds
+0037.896 (0) Table wp_mailpoet_automation_run_logs: finishing file(s) (2, 0.4 KB)
+0038.157 (0) Table wp_mailpoet_automation_run_subjects: Total expected rows (via COUNT): 0
+0038.199 (0) Table wp_mailpoet_automation_run_subjects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.17 seconds
+0038.657 (0) Table wp_mailpoet_automation_run_subjects: finishing file(s) (2, 0.4 KB)
+0039.037 (0) Table wp_mailpoet_automation_runs: Total expected rows (via COUNT): 0
+0039.118 (0) Table wp_mailpoet_automation_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=979) in 0.18 seconds
+0039.361 (0) Table wp_mailpoet_automation_runs: finishing file(s) (2, 0.4 KB)
+0039.537 (0) Table wp_mailpoet_automation_triggers: Total expected rows (approximate): 0
+0039.680 (0) Table wp_mailpoet_automation_triggers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=610) in 0.16 seconds
+0040.318 (0) Table wp_mailpoet_automation_triggers: finishing file(s) (2, 0.3 KB)
+0040.623 (0) Table wp_mailpoet_automation_versions: Total expected rows (via COUNT): 0
+0040.700 (0) Table wp_mailpoet_automation_versions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=806) in 0.19 seconds
+0040.974 (0) Table wp_mailpoet_automation_versions: finishing file(s) (2, 0.4 KB)
+0041.437 (0) Table wp_mailpoet_automations: Total expected rows (via COUNT): 0
+0041.512 (0) Table wp_mailpoet_automations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=921) in 0.34 seconds
+0041.801 (0) Table wp_mailpoet_automations: finishing file(s) (2, 0.4 KB)
+0042.157 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0042.301 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.38 seconds
+0042.783 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0043.149 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0043.204 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.11 seconds
+0043.429 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0043.850 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0043.940 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.33 seconds
+0044.126 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0044.340 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0044.433 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=955) in 0.20 seconds
+0044.749 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0045.165 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 41
+0045.223 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.347 (0) Table wp_mailpoet_log: Rows added in this batch (next record: 41): 41 (uncompressed bytes in this segment=28315) in 0.39 seconds
+0045.666 (0) Table wp_mailpoet_log: finishing file(s) (2, 2.2 KB)
+0045.981 (0) Table wp_mailpoet_migrations: Total expected rows (via COUNT): 12
+0046.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0046.182 (0) Table wp_mailpoet_migrations: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1952) in 0.32 seconds
+0046.415 (0) Table wp_mailpoet_migrations: finishing file(s) (2, 0.6 KB)
+0046.731 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0046.898 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=946) in 0.36 seconds
+0047.249 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0047.583 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0047.624 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0.20 seconds
+0047.932 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0048.183 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 28
+0048.272 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0048.565 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2736) in 0.50 seconds
+0048.840 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0049.083 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0049.332 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.34 seconds
+0049.933 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0050.152 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0050.231 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=803) in 0.17 seconds
+0050.506 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0051.131 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 76
+0051.198 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0051.677 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=1115014) in 1.01 seconds
+0052.252 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 66.5 KB)
+0052.566 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 1
+0052.606 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0052.725 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=12025) in 0.32 seconds
+0053.316 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 2.4 KB)
+0053.685 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0053.899 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=930) in 0.24 seconds
+0054.078 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0054.516 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 72
+0054.674 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.791 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 72): 72 (uncompressed bytes in this segment=13264) in 0.50 seconds
+0055.165 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 2.2 KB)
+0055.507 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0055.747 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.950 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1787) in 0.63 seconds
+0056.247 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.7 KB)
+0056.623 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0057.200 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1302) in 0.73 seconds
+0057.591 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0057.814 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 19
+0057.857 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.974 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 63): 19 (uncompressed bytes in this segment=3984) in 0.27 seconds
+0058.490 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.4 KB)
+0058.725 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0058.822 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.20 seconds
+0059.009 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0059.340 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0059.430 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1127) in 0.19 seconds
+0059.680 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0059.982 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0060.097 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.16 seconds
+0060.308 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0060.897 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0061.111 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.62 seconds
+0061.441 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0061.691 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0061.791 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.22 seconds
+0062.083 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.4 KB)
+0062.971 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 51
+0063.055 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.289 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: 51): 51 (uncompressed bytes in this segment=5273) in 0.50 seconds
+0064.030 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 1 KB)
+0064.399 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0064.580 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1276) in 0.26 seconds
+0065.264 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0065.737 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0065.944 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.28 seconds
+0066.443 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0067.193 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0067.298 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=910) in 0.20 seconds
+0067.972 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0068.450 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0068.519 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=595) in 0.10 seconds
+0068.781 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.3 KB)
+0068.982 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 10
+0069.113 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0069.272 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1737) in 0.33 seconds
+0069.588 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.6 KB)
+0069.763 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0069.888 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.18 seconds
+0070.107 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0070.623 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 9
+0070.688 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0070.809 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 56): 9 (uncompressed bytes in this segment=5071) in 0.32 seconds
+0071.151 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1.5 KB)
+0071.961 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0072.084 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.26 seconds
+0072.363 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0072.722 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0072.866 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.28 seconds
+0073.124 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0073.399 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0073.499 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=813) in 0.17 seconds
+0073.723 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0074.241 (0) Table wp_sbi_feed_caches: Total expected rows (via COUNT): 0
+0074.329 (0) Table wp_sbi_feed_caches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.42 seconds
+0074.640 (0) Table wp_sbi_feed_caches: finishing file(s) (2, 0.4 KB)
+0075.179 (0) Table wp_sbi_feeds: Total expected rows (via COUNT): 0
+0075.279 (0) Table wp_sbi_feeds: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=783) in 0.49 seconds
+0075.646 (0) Table wp_sbi_feeds: finishing file(s) (2, 0.4 KB)
+0076.912 (0) Table wp_sbi_instagram_feed_locator: Total expected rows (via COUNT): 0
+0078.903 (0) Table wp_sbi_instagram_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=759) in 3.02 seconds
+0079.961 (0) Table wp_sbi_instagram_feed_locator: finishing file(s) (2, 0.4 KB)
+0080.237 (0) Table wp_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 0
+0080.354 (0) Table wp_sbi_instagram_feeds_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=856) in 0.16 seconds
+0080.773 (0) Table wp_sbi_instagram_feeds_posts: finishing file(s) (2, 0.4 KB)
+0081.253 (0) Table wp_sbi_instagram_posts: Total expected rows (via COUNT): 0
+0081.354 (0) Table wp_sbi_instagram_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1023) in 0.29 seconds
+0081.882 (0) Table wp_sbi_instagram_posts: finishing file(s) (2, 0.5 KB)
+0082.276 (0) Table wp_sbi_sources: Total expected rows (via COUNT): 0
+0082.337 (0) Table wp_sbi_sources: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.12 seconds
+0082.570 (0) Table wp_sbi_sources: finishing file(s) (2, 0.5 KB)
+0082.937 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0083.028 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1107) in 0.17 seconds
+0083.289 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0083.603 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 103
+0083.639 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.805 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 4531): 103 (uncompressed bytes in this segment=21713) in 0.33 seconds
+0084.223 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.6 KB)
+0084.579 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 82
+0084.639 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.742 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 86): 82 (uncompressed bytes in this segment=38693) in 0.35 seconds
+0085.389 (0) Table wp_wc_admin_notes: finishing file(s) (2, 8.1 KB)
+0085.719 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 7
+0085.772 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0086.055 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 9): 7 (uncompressed bytes in this segment=2160) in 0.37 seconds
+0086.331 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.8 KB)
+0086.570 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0086.723 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.22 seconds
+0086.931 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0087.112 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0087.250 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.18 seconds
+0087.495 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0087.870 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 48
+0087.914 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.088 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 136): 48 (uncompressed bytes in this segment=5338) in 0.28 seconds
+0088.436 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 1.3 KB)
+0088.715 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 37
+0088.803 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0088.937 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 254): 37 (uncompressed bytes in this segment=5769) in 0.37 seconds
+0089.571 (0) Table wp_wc_order_stats: finishing file(s) (2, 1.3 KB)
+0089.976 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0090.126 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.22 seconds
+0090.450 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0091.036 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0091.140 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.21 seconds
+0091.323 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0091.611 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0091.694 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.826 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=931) in 0.32 seconds
+0092.288 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0092.702 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0092.990 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.39 seconds
+0093.337 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0093.605 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0093.703 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1225) in 0.20 seconds
+0093.893 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0094.454 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0094.519 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.51 seconds
+0094.840 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0095.102 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0095.188 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=960) in 0.17 seconds
+0095.396 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0095.703 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0095.802 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1534) in 0.16 seconds
+0095.970 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0096.297 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0096.409 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.27 seconds
+0096.762 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0097.087 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 89
+0097.181 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0097.349 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 139): 89 (uncompressed bytes in this segment=4649) in 0.31 seconds
+0097.604 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.9 KB)
+0097.941 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0098.327 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.48 seconds
+0098.946 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0100.927 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 47
+0101.003 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0101.120 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 421): 47 (uncompressed bytes in this segment=77043) in 1.04 seconds
+0101.389 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 5.4 KB)
+0101.540 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0101.615 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0101.728 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 14): 1 (uncompressed bytes in this segment=979) in 0.23 seconds
+0102.248 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0102.594 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0102.685 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0102.736 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 10): 1 (uncompressed bytes in this segment=881) in 0.27 seconds
+0103.050 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0103.379 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0103.457 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.498 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 6): 1 (uncompressed bytes in this segment=721) in 0.21 seconds
+0103.686 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0103.919 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0104.194 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.35 seconds
+0104.456 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0104.678 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0104.744 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1299) in 0.13 seconds
+0105.024 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0105.493 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0105.564 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.33 seconds
+0105.955 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0106.169 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0106.238 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=540) in 0.15 seconds
+0106.477 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0106.795 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0106.847 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=733) in 0.10 seconds
+0107.110 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0107.418 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0107.566 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=640) in 0.25 seconds
+0108.139 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0108.272 (0) PHP event: code E_WARNING: filemtime(): stat failed for G:\LocalServer\htdocs\halalCatering/wp-content/updraft/backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db.gz (line 1976, G:\LocalServer\htdocs\halalCatering\wp-content\plugins\updraftplus\backup.php)
+0108.385 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_options.table.tmpr10313.gz (1/105/fopen): adding to final database dump
+0108.535 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_options.table.gz (2/105/fopen): adding to final database dump
+0108.597 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_users.table.tmpr2.gz (3/105/fopen): adding to final database dump
+0108.755 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_users.table.gz (4/105/fopen): adding to final database dump
+0108.857 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_usermeta.table.tmpr152.gz (5/105/fopen): adding to final database dump
+0108.974 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_usermeta.table.gz (6/105/fopen): adding to final database dump
+0109.084 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_actions.table.tmpr2126.gz (7/105/fopen): adding to final database dump
+0109.195 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_actions.table.gz (8/105/fopen): adding to final database dump
+0109.543 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/105/fopen): adding to final database dump
+0109.659 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_claims.table.gz (10/105/fopen): adding to final database dump
+0109.876 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_groups.table.tmpr9.gz (11/105/fopen): adding to final database dump
+0109.955 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_groups.table.gz (12/105/fopen): adding to final database dump
+0110.160 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_logs.table.tmpr6318.gz (13/105/fopen): adding to final database dump
+0110.216 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_actionscheduler_logs.table.gz (14/105/fopen): adding to final database dump
+0110.336 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_commentmeta.table.tmpr0.gz (15/105/fopen): adding to final database dump
+0110.469 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_commentmeta.table.gz (16/105/fopen): adding to final database dump
+0110.582 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_comments.table.tmpr49.gz (17/105/fopen): adding to final database dump
+0110.660 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_comments.table.gz (18/105/fopen): adding to final database dump
+0110.778 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_links.table.tmpr0.gz (19/105/fopen): adding to final database dump
+0110.933 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_links.table.gz (20/105/fopen): adding to final database dump
+0110.976 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_postmeta.table.tmpr5243.gz (21/105/fopen): adding to final database dump
+0111.074 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_postmeta.table.gz (22/105/fopen): adding to final database dump
+0111.204 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_posts.table.tmpr260.gz (23/105/fopen): adding to final database dump
+0111.505 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_posts.table.gz (24/105/fopen): adding to final database dump
+0111.626 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_term_relationships.table.tmpr100001.gz (25/105/fopen): adding to final database dump
+0111.799 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_term_relationships.table.gz (26/105/fopen): adding to final database dump
+0111.990 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_term_taxonomy.table.tmpr19.gz (27/105/fopen): adding to final database dump
+0112.051 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_term_taxonomy.table.gz (28/105/fopen): adding to final database dump
+0112.109 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_termmeta.table.tmpr14.gz (29/105/fopen): adding to final database dump
+0112.190 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_termmeta.table.gz (30/105/fopen): adding to final database dump
+0112.255 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_terms.table.tmpr19.gz (31/105/fopen): adding to final database dump
+0112.314 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_terms.table.gz (32/105/fopen): adding to final database dump
+0112.392 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/105/fopen): adding to final database dump
+0112.473 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_category_lookup.table.gz (34/105/fopen): adding to final database dump
+0112.526 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_meta_lookup.table.tmpr34.gz (35/105/fopen): adding to final database dump
+0112.585 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_meta_lookup.table.gz (36/105/fopen): adding to final database dump
+0112.769 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/105/fopen): adding to final database dump
+0112.876 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_reserved_stock.table.gz (38/105/fopen): adding to final database dump
+0113.009 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/105/fopen): adding to final database dump
+0113.122 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_tax_rate_classes.table.gz (40/105/fopen): adding to final database dump
+0113.184 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_order_itemmeta.table.tmpr1102.gz (41/105/fopen): adding to final database dump
+0113.293 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_order_itemmeta.table.gz (42/105/fopen): adding to final database dump
+0113.343 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/105/fopen): adding to final database dump
+0113.440 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/105/fopen): adding to final database dump
+0113.480 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_check_email_log.table.tmpr0.gz (45/105/fopen): adding to final database dump
+0113.542 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_check_email_log.table.gz (46/105/fopen): adding to final database dump
+0113.628 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (47/105/fopen): adding to final database dump
+0113.659 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_attribute_mapping_rules.table.gz (48/105/fopen): adding to final database dump
+0113.751 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (49/105/fopen): adding to final database dump
+0113.860 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_budget_recommendations.table.gz (50/105/fopen): adding to final database dump
+0114.000 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_merchant_issues.table.tmpr0.gz (51/105/fopen): adding to final database dump
+0114.210 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_merchant_issues.table.gz (52/105/fopen): adding to final database dump
+0114.365 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_shipping_rates.table.tmpr0.gz (53/105/fopen): adding to final database dump
+0114.451 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_shipping_rates.table.gz (54/105/fopen): adding to final database dump
+0114.525 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_shipping_times.table.tmpr0.gz (55/105/fopen): adding to final database dump
+0114.607 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_gla_shipping_times.table.gz (56/105/fopen): adding to final database dump
+0114.684 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_litespeed_url.table.tmpr0.gz (57/105/fopen): adding to final database dump
+0114.784 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_litespeed_url.table.gz (58/105/fopen): adding to final database dump
+0114.883 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_litespeed_url_file.table.tmpr0.gz (59/105/fopen): adding to final database dump
+0114.976 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_litespeed_url_file.table.gz (60/105/fopen): adding to final database dump
+0115.227 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_run_logs.table.tmpr0.gz (61/105/fopen): adding to final database dump
+0115.502 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_run_logs.table.gz (62/105/fopen): adding to final database dump
+0115.684 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_run_subjects.table.tmpr0.gz (63/105/fopen): adding to final database dump
+0115.764 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_run_subjects.table.gz (64/105/fopen): adding to final database dump
+0115.859 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_runs.table.tmpr0.gz (65/105/fopen): adding to final database dump
+0115.909 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_runs.table.gz (66/105/fopen): adding to final database dump
+0116.005 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_triggers.table.tmpr1.gz (67/105/fopen): adding to final database dump
+0116.126 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_triggers.table.gz (68/105/fopen): adding to final database dump
+0116.275 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_versions.table.tmpr0.gz (69/105/fopen): adding to final database dump
+0116.350 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automation_versions.table.gz (70/105/fopen): adding to final database dump
+0116.722 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automations.table.tmpr0.gz (71/105/fopen): adding to final database dump
+0116.862 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_automations.table.gz (72/105/fopen): adding to final database dump
+0116.969 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (73/105/fopen): adding to final database dump
+0117.073 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_custom_fields.table.gz (74/105/fopen): adding to final database dump
+0117.188 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (75/105/fopen): adding to final database dump
+0117.284 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (76/105/fopen): adding to final database dump
+0117.391 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (77/105/fopen): adding to final database dump
+0117.457 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_feature_flags.table.gz (78/105/fopen): adding to final database dump
+0117.540 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_forms.table.tmpr0.gz (79/105/fopen): adding to final database dump
+0117.653 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_forms.table.gz (80/105/fopen): adding to final database dump
+0117.803 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_log.table.tmpr42.gz (81/105/fopen): adding to final database dump
+0117.889 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_log.table.gz (82/105/fopen): adding to final database dump
+0117.997 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_migrations.table.tmpr13.gz (83/105/fopen): adding to final database dump
+0118.059 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_migrations.table.gz (84/105/fopen): adding to final database dump
+0118.159 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (85/105/fopen): adding to final database dump
+0118.247 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_links.table.gz (86/105/fopen): adding to final database dump
+0118.317 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (87/105/fopen): adding to final database dump
+0118.375 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_option.table.gz (88/105/fopen): adding to final database dump
+0118.434 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr29.gz (89/105/fopen): adding to final database dump
+0118.559 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_option_fields.table.gz (90/105/fopen): adding to final database dump
+0118.642 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (91/105/fopen): adding to final database dump
+0118.783 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_posts.table.gz (92/105/fopen): adding to final database dump
+0118.984 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (93/105/fopen): adding to final database dump
+0119.134 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_segment.table.gz (94/105/fopen): adding to final database dump
+0119.264 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_templates.table.tmpr77.gz (95/105/fopen): adding to final database dump
+0119.328 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletter_templates.table.gz (96/105/fopen): adding to final database dump
+0119.405 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletters.table.tmpr2.gz (97/105/fopen): adding to final database dump
+0119.467 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_newsletters.table.gz (98/105/fopen): adding to final database dump
+0119.606 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (99/105/fopen): adding to final database dump
+0119.800 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (100/105/fopen): adding to final database dump
+0120.011 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_scheduled_tasks.table.tmpr73.gz (101/105/fopen): adding to final database dump
+0120.144 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_scheduled_tasks.table.gz (102/105/fopen): adding to final database dump
+0120.267 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_segments.table.tmpr4.gz (103/105/fopen): adding to final database dump
+0120.475 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_segments.table.gz (104/105/fopen): adding to final database dump
+0120.615 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (105/105/fopen): adding to final database dump
+0120.668 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_sending_queues.table.gz (106/105/fopen): adding to final database dump
+0120.776 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_settings.table.tmpr64.gz (107/105/fopen): adding to final database dump
+0120.859 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_settings.table.gz (108/105/fopen): adding to final database dump
+0120.975 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (109/105/fopen): adding to final database dump
+0121.043 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_bounces.table.gz (110/105/fopen): adding to final database dump
+0121.120 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (111/105/fopen): adding to final database dump
+0121.227 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_clicks.table.gz (112/105/fopen): adding to final database dump
+0121.325 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (113/105/fopen): adding to final database dump
+0121.451 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_forms.table.gz (114/105/fopen): adding to final database dump
+0121.542 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (115/105/fopen): adding to final database dump
+0121.667 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_newsletters.table.gz (116/105/fopen): adding to final database dump
+0121.789 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (117/105/fopen): adding to final database dump
+0121.882 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_opens.table.gz (118/105/fopen): adding to final database dump
+0121.922 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr52.gz (119/105/fopen): adding to final database dump
+0122.001 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (120/105/fopen): adding to final database dump
+0122.048 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (121/105/fopen): adding to final database dump
+0122.094 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (122/105/fopen): adding to final database dump
+0122.173 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (123/105/fopen): adding to final database dump
+0122.222 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_stats_notifications.table.gz (124/105/fopen): adding to final database dump
+0122.354 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (125/105/fopen): adding to final database dump
+0122.518 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_custom_field.table.gz (126/105/fopen): adding to final database dump
+0122.730 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (127/105/fopen): adding to final database dump
+0123.008 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_ips.table.gz (128/105/fopen): adding to final database dump
+0123.115 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_segment.table.tmpr11.gz (129/105/fopen): adding to final database dump
+0123.234 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_segment.table.gz (130/105/fopen): adding to final database dump
+0123.300 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (131/105/fopen): adding to final database dump
+0123.367 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscriber_tag.table.gz (132/105/fopen): adding to final database dump
+0123.448 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscribers.table.tmpr57.gz (133/105/fopen): adding to final database dump
+0123.480 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_subscribers.table.gz (134/105/fopen): adding to final database dump
+0123.534 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_tags.table.tmpr0.gz (135/105/fopen): adding to final database dump
+0123.646 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_tags.table.gz (136/105/fopen): adding to final database dump
+0123.792 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (137/105/fopen): adding to final database dump
+0123.875 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_user_agents.table.gz (138/105/fopen): adding to final database dump
+0123.984 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (139/105/fopen): adding to final database dump
+0124.075 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_mailpoet_user_flags.table.gz (140/105/fopen): adding to final database dump
+0124.150 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_feed_caches.table.tmpr0.gz (141/105/fopen): adding to final database dump
+0124.213 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_feed_caches.table.gz (142/105/fopen): adding to final database dump
+0124.267 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_feeds.table.tmpr0.gz (143/105/fopen): adding to final database dump
+0124.317 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_feeds.table.gz (144/105/fopen): adding to final database dump
+0124.367 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_feed_locator.table.tmpr0.gz (145/105/fopen): adding to final database dump
+0124.434 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_feed_locator.table.gz (146/105/fopen): adding to final database dump
+0124.483 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_feeds_posts.table.tmpr0.gz (147/105/fopen): adding to final database dump
+0124.534 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_feeds_posts.table.gz (148/105/fopen): adding to final database dump
+0124.583 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_posts.table.tmpr0.gz (149/105/fopen): adding to final database dump
+0124.634 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_instagram_posts.table.gz (150/105/fopen): adding to final database dump
+0124.705 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_sources.table.tmpr0.gz (151/105/fopen): adding to final database dump
+0124.758 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_sbi_sources.table.gz (152/105/fopen): adding to final database dump
+0124.808 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_smush_dir_images.table.tmpr0.gz (153/105/fopen): adding to final database dump
+0124.872 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_smush_dir_images.table.gz (154/105/fopen): adding to final database dump
+0125.225 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_admin_note_actions.table.tmpr4532.gz (155/105/fopen): adding to final database dump
+0125.375 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_admin_note_actions.table.gz (156/105/fopen): adding to final database dump
+0125.476 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_admin_notes.table.tmpr87.gz (157/105/fopen): adding to final database dump
+0125.635 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_admin_notes.table.gz (158/105/fopen): adding to final database dump
+0125.697 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_customer_lookup.table.tmpr10.gz (159/105/fopen): adding to final database dump
+0125.750 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_customer_lookup.table.gz (160/105/fopen): adding to final database dump
+0125.946 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_download_log.table.tmpr0.gz (161/105/fopen): adding to final database dump
+0126.013 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_download_log.table.gz (162/105/fopen): adding to final database dump
+0126.080 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (163/105/fopen): adding to final database dump
+0126.133 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_coupon_lookup.table.gz (164/105/fopen): adding to final database dump
+0126.184 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_product_lookup.table.tmpr137.gz (165/105/fopen): adding to final database dump
+0126.233 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_product_lookup.table.gz (166/105/fopen): adding to final database dump
+0126.392 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_stats.table.tmpr255.gz (167/105/fopen): adding to final database dump
+0126.685 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_stats.table.gz (168/105/fopen): adding to final database dump
+0126.834 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (169/105/fopen): adding to final database dump
+0126.881 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_order_tax_lookup.table.gz (170/105/fopen): adding to final database dump
+0126.975 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (171/105/fopen): adding to final database dump
+0127.040 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_attributes_lookup.table.gz (172/105/fopen): adding to final database dump
+0127.088 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_download_directories.table.tmpr3.gz (173/105/fopen): adding to final database dump
+0127.146 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_product_download_directories.table.gz (174/105/fopen): adding to final database dump
+0127.231 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_rate_limits.table.tmpr0.gz (175/105/fopen): adding to final database dump
+0127.280 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_rate_limits.table.gz (176/105/fopen): adding to final database dump
+0127.483 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_webhooks.table.tmpr0.gz (177/105/fopen): adding to final database dump
+0127.667 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wc_webhooks.table.gz (178/105/fopen): adding to final database dump
+0127.780 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (179/105/fopen): adding to final database dump
+0127.949 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_api_keys.table.gz (180/105/fopen): adding to final database dump
+0128.018 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (181/105/fopen): adding to final database dump
+0128.143 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_attribute_taxonomies.table.gz (182/105/fopen): adding to final database dump
+0128.199 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (183/105/fopen): adding to final database dump
+0128.250 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (184/105/fopen): adding to final database dump
+0128.300 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_log.table.tmpr0.gz (185/105/fopen): adding to final database dump
+0128.350 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_log.table.gz (186/105/fopen): adding to final database dump
+0128.390 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_order_items.table.tmpr140.gz (187/105/fopen): adding to final database dump
+0128.421 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_order_items.table.gz (188/105/fopen): adding to final database dump
+0128.483 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (189/105/fopen): adding to final database dump
+0128.546 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_payment_tokens.table.gz (190/105/fopen): adding to final database dump
+0128.786 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_sessions.table.tmpr422.gz (191/105/fopen): adding to final database dump
+0128.890 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_sessions.table.gz (192/105/fopen): adding to final database dump
+0129.032 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr15.gz (193/105/fopen): adding to final database dump
+0129.158 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zone_locations.table.gz (194/105/fopen): adding to final database dump
+0129.233 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr11.gz (195/105/fopen): adding to final database dump
+0129.300 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zone_methods.table.gz (196/105/fopen): adding to final database dump
+0129.350 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zones.table.tmpr7.gz (197/105/fopen): adding to final database dump
+0129.440 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_shipping_zones.table.gz (198/105/fopen): adding to final database dump
+0129.471 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (199/105/fopen): adding to final database dump
+0129.656 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_tax_rate_locations.table.gz (200/105/fopen): adding to final database dump
+0129.688 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (201/105/fopen): adding to final database dump
+0129.750 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_woocommerce_tax_rates.table.gz (202/105/fopen): adding to final database dump
+0129.813 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (203/105/fopen): adding to final database dump
+0129.925 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (204/105/fopen): adding to final database dump
+0130.074 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpfm_backup.table.tmpr0.gz (205/105/fopen): adding to final database dump
+0130.233 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpfm_backup.table.gz (206/105/fopen): adding to final database dump
+0130.291 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpmailsmtp_debug_events.table.tmpr0.gz (207/105/fopen): adding to final database dump
+0130.366 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpmailsmtp_debug_events.table.gz (208/105/fopen): adding to final database dump
+0130.459 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr0.gz (209/105/fopen): adding to final database dump
+0130.567 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db-table-wp_wpmailsmtp_tasks_meta.table.gz (210/105/fopen): adding to final database dump
+0130.726 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db.gz: finished writing out complete database file (764.4 KB)
+0131.038 (0) Total database tables backed up: 105 (backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db.gz, size: 782886, sha1: e62559bca59a1ca6431d4a69bb7df414fcb3bbfe, sha256: 28521f8fbc109b26cbf4ad23196e7456f6d1fa0fa4d042cd5263229617ba7123)
+0131.539 (0) backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db.gz: db: This file has not yet been successfully uploaded: will queue
+0131.784 (0) Saving backup history. Total backup size: 764.5 KB
+0131.978 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0132.258 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0132.441 (0) No remote despatch: user chose no remote backup service
+0132.616 (0) Recording as successfully uploaded: backup_2023-06-01-0946_Halalcatering_57d6d1f1e799-db.gz
+0132.849 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0132.917 (0) Number of backup sets in history: 1; groups (db): 1
+0133.001 (0) Examining (for databases) backup set with group_id=0, nonce=57d6d1f1e799, datestamp=1685612760 (Jun 01 2023 09:46:00)
+0133.099 (0) This backup set is the backup set just made, so will not be deleted.
+0133.099 (0) Number of backup sets in history: 1; groups (files): 1
+0133.200 (0) Examining (for files) backup set with nonce=57d6d1f1e799, datestamp=1685612760 (Jun 01 2023 09:46:00)
+0133.200 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0133.316 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0133.730 (0) Resume backup (57d6d1f1e799, 0): finish run
+0133.924 (0) Decremented the semaphore (d) by 1
+0134.046 (0) Semaphore (d) unlocked
+0134.099 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0134.272 (0) No email will/can be sent - the user has not configured an email address.
+0134.341 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,50 @@
+2023-05-23T18:48:36+00:00 CRITICAL Cannot redeclare update_shipping_cost() (previously declared in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:241) in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 264
+
+2023-05-23T18:48:48+00:00 CRITICAL Cannot redeclare update_shipping_cost() (previously declared in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:241) in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 264
+
+2023-05-23T18:48:50+00:00 CRITICAL Cannot redeclare update_shipping_cost() (previously declared in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:241) in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 264
+
+2023-05-23T18:49:37+00:00 CRITICAL Cannot redeclare update_shipping_cost() (previously declared in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:241) in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 264
+
+2023-05-23T19:01:22+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::set_shipping_to_base() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:258
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_hc_shipping_cost()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 258
+
+2023-05-23T19:03:24+00:00 CRITICAL syntax error, unexpected token ")" in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+
+2023-05-23T19:03:44+00:00 CRITICAL syntax error, unexpected token ")" in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+
+2023-05-23T19:05:22+00:00 CRITICAL syntax error, unexpected token ")" in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+
+2023-05-23T19:05:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::set_shipping_to_base() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:261
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_hc_shipping_cost()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+
+2023-05-23T19:07:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::set_shipping_to_base() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:261
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_hc_shipping_cost()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+
+2023-05-23T19:14:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::set_shipping_to_base() in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php:261
+Stack trace:
+#0 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(308): update_hc_shipping_cost()
+#1 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/u910397194/domains/mediavesthosting.com/public_html/halalcatering/wp-content/themes/halalcatering-theme/functions.php on line 261
+

@@ -1,0 +1,2 @@
+2023-06-01T09:36:25+00:00 CRITICAL Out of memory (allocated 100663296) (tried to allocate 20480 bytes) in G:\LocalServer\htdocs\halalCatering\wp-includes\class-wp-hook.php on line 79
+

@@ -1,0 +1,48 @@
+2023-05-23T08:43:11+00:00 CRITICAL Uncaught Error: Call to undefined function replace() in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php:184
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\single-product.php(15): get_template_part('layout/main-nav...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\halalcatering\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php on line 184
+
+2023-05-23T08:43:19+00:00 CRITICAL Uncaught Error: Call to undefined function replace() in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php:184
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\single-product.php(15): get_template_part('layout/main-nav...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\halalcatering\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php on line 184
+
+2023-05-23T08:43:54+00:00 CRITICAL Uncaught Error: Call to undefined function replace() in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php:183
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\single-product.php(15): get_template_part('layout/main-nav...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\halalcatering\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php on line 183
+
+2023-05-23T08:44:12+00:00 CRITICAL Uncaught Error: Call to undefined function replace() in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php:182
+Stack trace:
+#0 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\others\halalcatering\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\others\halalcatering\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\single-product.php(15): get_template_part('layout/main-nav...')
+#4 C:\xampp\htdocs\others\halalcatering\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\others\halalcatering\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\others\halalcatering\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\others\halalcatering\wp-content\themes\halalcatering-theme\layout\main-navigation.php on line 182
+
